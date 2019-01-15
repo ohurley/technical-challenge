@@ -1,0 +1,4 @@
+django==2.1.5
+djangorestframework==3.7.3
+django-rest-swagger==2.1.2
+django-simple-history==2.6.0
