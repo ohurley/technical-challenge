@@ -24,7 +24,7 @@ The string "IMPOSSIBLE", if the customers' preferences cannot be satisfied; OR N
 
 Follow the steps below to boot service within a container. 
 
-1. python manage.py makemigrations app
+1. python manage.py makemigrations 
 2. python manage.py migrate
 3. python manage.py createsuperuser <follow steps to create your own admin user (admin.user) and whatever password you want>
 4. python manage.py runserver 0.0.0.0:8000
@@ -46,9 +46,9 @@ http://0.0.0.0:8000/docs/#/
 To use the service you must be authenticated with the appropriate permissions.
 
 ### Create user
-
+```
 python manage.py createsuperuser --username aylien --email test@aylien.com
-
+```
 ### Generate token
 
 ```
